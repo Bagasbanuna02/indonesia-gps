@@ -6,16 +6,18 @@ export default function Gambar() {
   return (
     <>
 
-    <Center>
+    <Center >
    <Box>
    <Image
+   bg={"black"}
+
         src="/gps_2.svg"
         alt="GPS Indo"
         width={`${100+ "vw"}`}
         height={`${100+"vh"}`}
-        sx={{
-            margin: 10
-        }}
+        // sx={{
+        //     margin: 10
+        // }}
       />
    </Box>
     </Center>
