@@ -1,21 +1,6 @@
-import Image from "next/image";
+import Gambar from './gambar/page';
+import { Test } from './test-component';
 
-export default function Home() {
-  const imageStyle = {};
-  return (
-    <div>
-      <center>
-        <Image
-          src="/gps_indo.png"
-          alt="GPS Indo"
-          width={`${1500}`}
-          height={`${100}`}
-          style={{
-            top: 0,
-            
-          }}
-        />
-      </center>
-    </div>
-  );
+export default function Page() {
+  return <Gambar/>
 }
