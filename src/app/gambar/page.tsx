@@ -54,7 +54,7 @@ export default function Gambar() {
             direction={"column"}
             w={"30%"}
             sx={{
-              fontSize: 9,
+              fontSize: 6,
             }}
           >
             <Box
